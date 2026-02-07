@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Management</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h2>Employee Management</h2>
+
+    <h3>Add Employee</h3>
+    <input type="text" id="name" placeholder="Name" />
+    <input type="text" id="department" placeholder="Department" />
+    <button onclick="addEmployee()">Add</button>
+
+    <h3>Employee List</h3>
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="employeeTable"></tbody>
+    </table>
+
+    <!-- Link external JS file -->
+    <script src="app.js"></script>
+</body>
+</html>
